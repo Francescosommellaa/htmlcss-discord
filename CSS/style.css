@@ -31,24 +31,42 @@ header {
 }
 
 /* navigazioni laterali */
+
+/* logo */
 .left {
-    width: 20%;
+    width: 15%;
     padding-left: 0.5em;
 }
 
 .left img {
-    width: 50%;
+    width: 70%;
 }
 
+
+/* pulsante Accedi */
 .right {
-    width: 20%;
+    width: 15%;
     justify-content: end;
     padding-right: 0.5em;
 }
 
+.button-white {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 12%;
+    border: 0px;
+}
+
+.button-white .decoration-link {
+    color: black;
+    font-weight: 600;
+}
+
+
+
 /* navigazione centrale */
 .center {
-    width: 40%;
+    width: 50%;
     justify-content: center;
 }
 
@@ -60,7 +78,7 @@ header {
 }
 
 #nav-item li {
-    padding: 0.5em;
+    padding: 0.8em;
 }
 
 
@@ -68,11 +86,10 @@ header {
 /* stile dei link */
 .decoration-link {
     text-decoration: none;
-    color: black;
-    font-size: 14px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
 }
-
-
 
 /* header */
 #container-intestazione {
