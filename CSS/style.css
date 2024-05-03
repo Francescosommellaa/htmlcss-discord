@@ -35,12 +35,16 @@ header {
 /* regole navigazione */
 .left {
     width: 15%;
-    padding-left: 0.5em;
 }
 
 /* logo */
-.left img {
-    width: 70%;
+.logo {
+    width: 8em;
+    margin-left: 15%;
+}
+.logo:hover {
+    width: 8.5em;
+    cursor: pointer;
 }
 
 
@@ -48,6 +52,7 @@ header {
 .center {
     width: 50%;
     justify-content: center;
+    margin: 0 4%;
 }
 
 #nav-item {
@@ -60,16 +65,20 @@ header {
 #nav-item li {
     padding: 0.8em;
 }
-
+#nav-item li:hover {
+    font-size: 8px;
+    opacity: 0.5;
+    cursor: pointer;
+}
 
 /* regole navigazione destra */
 .right {
     width: 15%;
     justify-content: end;
-    padding-right: 0.5em;
 }
 
 .right .main-button {
+    margin-left: 15%;
     font-size: 12px;
 }
 
@@ -165,10 +174,6 @@ header {
 
 
 /* content */
-.big-img {
-    width: 100%;
-}
-
 .big {
     width: 60%;
 }
@@ -176,11 +181,12 @@ header {
 .small {
     width: 40%;
     padding: 2%;
+    
 }
 
 .bg-gray {
     padding: 6% 12%;
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .txt h2 {
@@ -219,7 +225,6 @@ header {
 
 #cta .purple::before{
     content: '\2193';
-    color: white;
     padding-right: 8px;
 }
 
@@ -234,25 +239,17 @@ Footer {
 .container-foot {
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 
 
 /* content footer top*/
 .big-footer-content {
-    height: 400px;
     width: 40%;
     color: white;
 }
 
-.small-footer-content {
-    height: 400px;
-    width: 20%;
-    background-color: #20B2AA;
-}
-
 hr {
-    margin: 4% 0 2%;
+    margin: 2% 0;
     border-color: #22262A;
 }
 
@@ -265,8 +262,6 @@ hr {
 .start-foot {
     display: flex;
     justify-content: flex-start;
-    align-content: center;
-
 }
 
 .start-foot img {
@@ -283,16 +278,42 @@ hr {
 .arrow-icon:hover {
     cursor: pointer;
 }
-/* regole social icon */
 
+
+/* regole social icon */
 .social-icon {
     margin: 12% 2px;
 }
 
 .social-icon:hover {
     cursor: pointer;
+    opacity: 0.5;
 }
 
+
+/* footer link */
+.small-footer-content {
+    width: 20%;
+    color: white;
+    padding: 0 4%;
+}
+
+.small-footer-content h5 {
+    font-size: 14px;
+}
+
+.foot-item {
+    list-style-type: none;
+}
+
+.foot-item li{
+    padding: 4px 0;
+}
+.foot-item li:hover {
+    font-size: 8px;
+    opacity: 0.5;
+    cursor: pointer;
+}
 
 /* content footer bottom */
 .info-footer {
