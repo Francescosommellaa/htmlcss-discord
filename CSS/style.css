@@ -11,6 +11,7 @@ header {
     background-image: url(../IMG/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 /* navigazione */
@@ -50,18 +51,38 @@ header {
     padding-right: 0.5em;
 }
 
-.button-white {
-    background-color: #fff;
+
+/* regole generali pulsanti */
+.nav-button {
     border-radius: 20px;
     padding: 12%;
     border: 0px;
 }
 
-.button-white .decoration-link {
+.main-button {
+    border-radius: 40px;
+    padding: 4%;
+    border: 0px;
+    margin: 2%;
+    font-size: 14px;
+}
+
+.white {
+    background-color: #fff;
     color: black;
     font-weight: 600;
 }
 
+#button-header .white::before{
+    content: '\2193';
+    color: black;
+}
+
+.dark {
+    background-color: #222629;
+    color: #fff;
+    font-weight: 600;
+}
 
 
 /* navigazione centrale */
@@ -93,26 +114,26 @@ header {
 
 /* header */
 #container-intestazione {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 6% 20%;
-
-    /* debug */
-    width: 100%;
-    height: auto;
-
+    padding: 8% 20%;
 }
 
 .contenuto-header {
-    width: 100%;
-    height: 400px;
-
-    /* debug */
-    border: 2px dotted black;
-    background-color: #EE82EE;
+    text-align: center;
+    color: white;
 }
 
+.contenuto-header h1 {
+    padding-bottom: 6%;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.contenuto-header p {
+    padding-bottom: 4%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+}
 
 
 /* section content */
