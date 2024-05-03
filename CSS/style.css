@@ -13,6 +13,8 @@ header {
     background-position-x: center;
 }
 
+
+
 /* navigazione */
 #container-nav {
     width: 100%;
@@ -23,80 +25,26 @@ header {
 }
 
 
-
-/* colonne nav */
+/* regole generali colonne nav */
 .column {
     display: flex;
     align-items: center;
 }
 
-/* navigazioni laterali */
 
-/* logo */
+/* regole navigazione */
 .left {
     width: 15%;
     padding-left: 0.5em;
 }
 
+/* logo */
 .left img {
     width: 70%;
 }
 
 
-/* pulsante Accedi */
-.right {
-    width: 15%;
-    justify-content: end;
-    padding-right: 0.5em;
-}
-
-
-/* regole generali pulsanti */
-.nav-button {
-    border-radius: 20px;
-    padding: 1em;
-    border: 0px;
-}
-
-.main-button {
-    border-radius: 40px;
-    padding: 1em;
-    border: 0px;
-    margin: 2%;
-    font-size: 14px;
-}
-
-.white {
-    background-color: #fff;
-    color: black;
-    font-weight: 600;
-}
-
-#button-header .white::before{
-    content: '\2193';
-    color: black;
-}
-
-.dark {
-    background-color: #222629;
-    color: #fff;
-    font-weight: 600;
-}
-
-.purple {
-    background-color: #8EA1E1;
-    color: #fff;
-    font-weight: 600;
-}
-
-#cta .purple::before{
-    content: '\2193';
-    color: white;
-    padding-right: 8px;
-}
-
-
-/* navigazione centrale */
+/* regole navigazione centrale */
 .center {
     width: 50%;
     justify-content: center;
@@ -114,8 +62,48 @@ header {
 }
 
 
+/* regole navigazione destra */
+.right {
+    width: 15%;
+    justify-content: end;
+    padding-right: 0.5em;
+}
 
-/* stile dei link */
+.right .main-button {
+    font-size: 12px;
+}
+
+
+
+/* regole generali pulsanti */
+.main-button {
+    border-radius: 40px;
+    padding: 1em;
+    border: 0px;
+    margin: 2%;
+    font-size: 14px;
+}
+
+.white {
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+}
+
+.dark {
+    background-color: #222629;
+    color: #fff;
+    font-weight: 600;
+}
+
+.purple {
+    background-color: #8EA1E1;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* stile generale dei link */
 .decoration-link {
     text-decoration: none;
     color: white;
@@ -123,28 +111,35 @@ header {
     font-weight: 500;
 }
 
-/* header */
+
+
+/* intestazione */
 #container-intestazione {
     padding: 8% 20%;
 }
 
-.contenuto-header {
+.contenuto-intestazione {
     text-align: center;
     color: white;
     padding: 2%;
 }
 
-.contenuto-header h1 {
+.contenuto-intestazione h1 {
     padding-bottom: 6%;
     font-size: 36px;
     font-weight: 800;
 }
 
-.contenuto-header p {
+.contenuto-intestazione p {
     padding-bottom: 4%;
     font-size: 16px;
     font-weight: 500;
     line-height: 140%;
+}
+
+#button-intestazione .white::before{
+    content: '\2193';
+    color: black;
 }
 
 
@@ -156,8 +151,9 @@ header {
     padding: 8% 12%;
 }
 
-/* content */
 
+
+/* content */
 .big-img {
     width: 100%;
 }
@@ -193,6 +189,8 @@ header {
     text-align: center;
 }
 
+
+/* cta */
 #cta {
     padding-top: 4%;
     background-image: url(../IMG/stars.svg);
@@ -207,6 +205,13 @@ header {
     margin: 2%;
 
 }
+
+#cta .purple::before{
+    content: '\2193';
+    color: white;
+    padding-right: 8px;
+}
+
 
 
 /* content footer top*/
