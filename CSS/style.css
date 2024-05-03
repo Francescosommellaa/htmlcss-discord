@@ -6,6 +6,13 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* header */
+header {
+    background-image: url(../IMG/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* navigazione */
 #container-nav {
     width: 100%;
@@ -13,9 +20,6 @@
     display: flex;
     justify-content: center;
     padding: 2%;
-
-    /* debug */
-    background-color: #ADD8E6;
 }
 
 
@@ -24,16 +28,16 @@
 .column {
     display: flex;
     align-items: center;
-
-    /* debug */
-    background-color: #DAA520;
-    border: 2px dotted black;
 }
 
 /* navigazioni laterali */
 .left {
     width: 20%;
     padding-left: 0.5em;
+}
+
+.left img {
+    width: 50%;
 }
 
 .right {
@@ -71,14 +75,13 @@
 
 
 /* header */
-#container-header {
+#container-intestazione {
     display: flex;
     justify-content: center;
     align-content: center;
     padding: 6% 20%;
 
     /* debug */
-    background-color: #00008B;
     width: 100%;
     height: auto;
 
