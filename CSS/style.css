@@ -54,7 +54,7 @@ header {
 /* regole generali pulsanti */
 .nav-button {
     border-radius: 20px;
-    padding: 12%;
+    padding: 1em;
     border: 0px;
 }
 
@@ -180,7 +180,7 @@ header {
     font-size: 32px;
     font-weight: 800;
     line-height: 110%;
-    padding-bottom: 8%;
+    padding-bottom: 0.5em;
 }
 
 .txt p {
@@ -194,13 +194,18 @@ header {
 }
 
 #cta {
-    margin-top: 4%;
+    padding-top: 4%;
+    background-image: url(../IMG/stars.svg);
+    background-size: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
 }
 
 #cta h3 {
     font-size: 22px;
     font-weight: 800;
-    padding: 2%;
+    margin: 2%;
+
 }
 
 
