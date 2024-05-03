@@ -83,17 +83,29 @@ header {
     margin: 2%;
     font-size: 14px;
 }
+.main-button:hover {
+    cursor: pointer;
+    background-color: #5e6fa5;
+}
 
 .white {
     background-color: #fff;
     color: black;
     font-weight: 600;
 }
+.white:hover {
+    background-color: #000;
+    color: #fff;
+}
 
 .dark {
     background-color: #222629;
     color: #fff;
     font-weight: 600;
+}
+.dark:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .purple {
@@ -139,7 +151,6 @@ header {
 
 #button-intestazione .white::before{
     content: '\2193';
-    color: black;
 }
 
 
@@ -231,7 +242,7 @@ Footer {
 .big-footer-content {
     height: 400px;
     width: 40%;
-    background-color: #F08080;
+    color: white;
 }
 
 .small-footer-content {
@@ -245,9 +256,45 @@ hr {
     border-color: #22262A;
 }
 
+.txt-purple {
+    color: #7289DA;
+    margin-bottom: 8%;
+}
 
-/* content footer bottom*/
-#info-footer {
+/* regole scelta lingua */
+.start-foot {
     display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+
+.start-foot img {
+    height: 16px;
+    margin-right: 4%;
+}
+
+.arrow-icon {
+    width: 12px;
+    color: white;
+    margin-left: 4%;
+}
+
+.arrow-icon:hover {
+    cursor: pointer;
+}
+/* regole social icon */
+
+.social-icon {
+    margin: 12% 2px;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+}
+
+
+/* content footer bottom */
+.info-footer {
     justify-content: space-between;
 }
