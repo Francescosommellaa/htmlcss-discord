@@ -1,0 +1,180 @@
+/* regole generali */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navigazione */
+#container-nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+    /* debug */
+    background-color: #ADD8E6;
+}
+
+
+
+/* colonne nav */
+.column {
+    display: flex;
+    align-items: center;
+
+    /* debug */
+    background-color: #DAA520;
+    border: 2px dotted black;
+}
+
+/* navigazioni laterali */
+.left {
+    width: 20%;
+    padding-left: 0.5em;
+}
+
+.right {
+    width: 20%;
+    justify-content: end;
+    padding-right: 0.5em;
+}
+
+/* navigazione centrale */
+.center {
+    width: 40%;
+    justify-content: center;
+}
+
+#nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+#nav-item li {
+    padding: 0.5em;
+}
+
+
+
+/* stile dei link */
+.decoration-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+
+/* header */
+#container-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 6% 20%;
+
+    /* debug */
+    background-color: #00008B;
+    width: 100%;
+    height: auto;
+
+}
+
+.contenuto-header {
+    width: 100%;
+    height: 400px;
+
+    /* debug */
+    border: 2px dotted black;
+    background-color: #EE82EE;
+}
+
+
+
+/* section content */
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 6% 12%;
+    width: 100%;
+    height: auto;
+}
+
+/* debug */
+.db {
+    border: 2px dotted black;
+}
+
+/* content */
+.big {
+    height: 400px;
+    width: 60%;
+
+    /* debug */
+    background-color: #1E90FF;
+}
+
+.small {
+    height: 400px;
+    width: 40%;
+
+    /* debug */
+    background-color: #FFC0CB;
+}
+
+.big-content {
+    height: 400px;
+    width: 100%;
+
+    /* debug */
+    background-color: #228B22;
+}
+
+.bg-gray {
+    background-color: #D3D3D3;
+}
+
+
+
+/* content footer top*/
+.big-footer-content {
+    height: 400px;
+    width: 40%;
+    background-color: #F08080;
+}
+
+.small-footer-content {
+    height: 400px;
+    width: 20%;
+    background-color: #20B2AA;
+    border: 2px dotted white;
+}
+
+.bg-black {
+    background-color: #23272A;
+}
+
+
+/* content footer bottom*/
+.container-footer {
+    height: auto;
+    padding: 4% 12% 0;
+}
+
+#info-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 0;
+
+    /* debug */
+    background-color: #7FFFD4;
+}
+
+.decoration-button {
+    padding: 0.5em;
+    font-size: 16px;
+}
