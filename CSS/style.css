@@ -10,7 +10,6 @@
 header {
     background-image: url(../IMG/jumbo.png);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-x: center;
 }
 
@@ -61,7 +60,7 @@ header {
 
 .main-button {
     border-radius: 40px;
-    padding: 4%;
+    padding: 1em;
     border: 0px;
     margin: 2%;
     font-size: 14px;
@@ -120,6 +119,7 @@ header {
 .contenuto-header {
     text-align: center;
     color: white;
+    padding: 2%;
 }
 
 .contenuto-header h1 {
@@ -142,8 +142,6 @@ header {
     justify-content: center;
     align-content: center;
     padding: 6% 12%;
-    width: 100%;
-    height: auto;
 }
 
 /* debug */
@@ -153,31 +151,22 @@ header {
 
 /* content */
 .big {
-    height: 400px;
     width: 60%;
-
-    /* debug */
-    background-color: #1E90FF;
 }
 
 .small {
-    height: 400px;
     width: 40%;
-
-    /* debug */
-    background-color: #FFC0CB;
 }
 
 .big-content {
     height: 400px;
     width: 100%;
-
-    /* debug */
-    background-color: #228B22;
 }
 
-.bg-gray {
+.big-gray {
+    padding: 6% 12%;
     background-color: #D3D3D3;
+    text-align: center;
 }
 
 
