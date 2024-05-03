@@ -83,6 +83,18 @@ header {
     font-weight: 600;
 }
 
+.purple {
+    background-color: #8EA1E1;
+    color: #fff;
+    font-weight: 600;
+}
+
+#cta .purple::before{
+    content: '\2193';
+    color: white;
+    padding-right: 8px;
+}
+
 
 /* navigazione centrale */
 .center {
@@ -141,34 +153,55 @@ header {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 6% 12%;
-}
-
-/* debug */
-.db {
-    border: 2px dotted black;
+    padding: 8% 12%;
 }
 
 /* content */
+
+.big-img {
+    width: 100%;
+}
+
 .big {
     width: 60%;
 }
 
 .small {
     width: 40%;
+    padding: 2%;
 }
 
-.big-content {
-    height: 400px;
-    width: 100%;
-}
-
-.big-gray {
+.bg-gray {
     padding: 6% 12%;
     background-color: #D3D3D3;
+}
+
+.txt h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 110%;
+    padding-bottom: 8%;
+}
+
+.txt p {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+.full-page {
     text-align: center;
 }
 
+#cta {
+    margin-top: 4%;
+}
+
+#cta h3 {
+    font-size: 22px;
+    font-weight: 800;
+    padding: 2%;
+}
 
 
 /* content footer top*/
