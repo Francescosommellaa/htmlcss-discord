@@ -205,7 +205,7 @@ header {
 
 /* cta */
 #cta {
-    padding-top: 2%;
+    padding-top: 2px;
     background-image: url(../IMG/stars.svg);
     background-size: 40%;
     background-position-x: center;
@@ -213,7 +213,7 @@ header {
 }
 
 #cta h3 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 800;
     margin: 2%;
 
@@ -229,7 +229,7 @@ header {
 /* regole generali footer */
 Footer {
     background-color: #23272A;
-    padding: 8% 12%;
+    padding: 4% 12%;
 }
 
 .container-foot {
@@ -245,7 +245,7 @@ Footer {
 }
 
 hr {
-    margin: 2% 0;
+    margin: 1em 0 0.2em;
     border-color: #22262A;
 }
 
