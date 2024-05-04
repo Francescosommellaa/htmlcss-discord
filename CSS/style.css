@@ -63,7 +63,6 @@ header {
     padding: 0 2em;
 }
 #nav-item li:hover {
-    font-size: 10px;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -206,9 +205,9 @@ header {
 
 /* cta */
 #cta {
-    padding-top: 4%;
+    padding-top: 2%;
     background-image: url(../IMG/stars.svg);
-    background-size: 80%;
+    background-size: 40%;
     background-position-x: center;
     background-repeat: no-repeat;
 }
@@ -315,4 +314,17 @@ hr {
 /* content footer bottom */
 .info-footer {
     justify-content: space-between;
+}
+
+
+
+/* wave */
+.wave {
+    filter: brightness(1) saturate(0) hue-rotate(0);
+    width: 100%;
+}
+
+.bottom-wave {
+    transform: rotate(180deg);
+    width: 100%;
 }
