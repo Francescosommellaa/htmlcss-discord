@@ -321,7 +321,6 @@ hr {
 /* wave */
 .wave {
     display: block;
-    filter: opacity(0.035);
     width: 100%;
 }
 
