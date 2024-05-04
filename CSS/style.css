@@ -320,11 +320,11 @@ hr {
 
 /* wave */
 .wave {
-    filter: brightness(1) saturate(0) hue-rotate(0);
+    display: block;
+    filter: opacity(0.035);
     width: 100%;
 }
 
 .bottom-wave {
     transform: rotate(180deg);
-    width: 100%;
 }
